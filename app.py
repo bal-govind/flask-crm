@@ -6,7 +6,7 @@ app = Flask(__name__)
 ENV = 'dev'
 if ENV == 'dev':
     app.debug=True
-    app.config['SQLALCHEMY_DATABASE_URI']='postgresql://vxgthrwehldfbu:62a916a903f7eedcc8daa8bb1eadd431bc348c70292069158ce47e6f42cce22f@ec2-52-3-60-53.compute-1.amazonaws.com:5432/d15b78d48l0gie'
+    app.config['SQLALCHEMY_DATABASE_URI']='postgresql://rppmynjysqqaly:d3db5e11add6ce7dbcecbe0d6048f63948962394da248f16ede69e3efa82f8d7@ec2-3-229-161-70.compute-1.amazonaws.com:5432/d74vab7lbe1rel'
 else:
     app.debug=False
     app.config['SQLALCHEMY_DATABASE_URI']=''
